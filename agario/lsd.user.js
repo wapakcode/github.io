@@ -9,6 +9,7 @@
 // @connect      cdn.ogario.ovh
 // @connect      ogar.io
 // @connect      deltav4.glitch.me
+// @connect      wapakcode.github.io
 // @connect      aglsd.glitch.me
 // @connect      hslo.io
 // @connect      www.agartool.io
@@ -19,7 +20,7 @@
 // ==/UserScript==
 
 if (location.host == 'agar.io' && location.pathname === '/' ) {
-  location.href = 'https://agar.io/delta';
+  location.href = 'https://agar.io/lsd';
   return;
 }
 
@@ -45,7 +46,7 @@ switch(mode){
         url = 'https://deltav4.glitch.me/v4/index.html'
         break;
     case 'lsd':
-        url = 'https://aglsd.glitch.me/index.html'
+        url = 'https://wapakcode.github.io/agario/index.html'
         break;
     case 'remade-delta':
         url = 'https://deltav4.glitch.me/remade-delta/index.html'
